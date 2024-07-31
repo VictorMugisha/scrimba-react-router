@@ -61,6 +61,12 @@ footer {
   font-weight: 500;
 }
 
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .link-button {
   display: inline-block;
   text-align: center;
