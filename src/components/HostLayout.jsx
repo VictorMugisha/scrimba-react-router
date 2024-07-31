@@ -27,6 +27,13 @@ export default function HostLayout() {
                 </NavLink>
 
                 <NavLink
+                    to="/hosts/vans"
+                    style={({ isActive }) => isActive ? activeStyles : null}
+                >
+                    Vans
+                </NavLink>
+
+                <NavLink
                     to="/hosts/reviews"
                     style={({ isActive }) => isActive ? activeStyles : null}
                 >
