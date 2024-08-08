@@ -14,7 +14,7 @@ export default function Header() {
             <Link className="site-logo" to="/">#VanLife</Link>
             <nav>
                 <NavLink 
-                    to="host"
+                    to="hosts"
                     style={({isActive}) => isActive ? activeStyles : null}
                 >
                     Host
