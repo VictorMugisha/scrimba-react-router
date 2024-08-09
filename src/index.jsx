@@ -5,7 +5,6 @@ import {
     createBrowserRouter,
     createRoutesFromElements,
     Route,
-    Link
 } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
@@ -27,6 +26,7 @@ import Error from "./components/Error"
 import { requireAuth } from "./utils"
 
 import "./server"
+import "./index.css"
 
 const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<Layout />}>
